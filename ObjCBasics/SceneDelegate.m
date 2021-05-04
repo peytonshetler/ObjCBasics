@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import "ViewController.h" // Have to import header files for classes to be available
 
 @interface SceneDelegate ()
 
@@ -15,9 +16,15 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-    // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-    // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-    // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+    // .new is similar to Swift instantiation. Ex: UIWindow()
+    self.window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
+    
+    self.window.rootViewController = [[UINavigationController alloc]
+                                      initWithRootViewController:ViewController.new];
+    // Functions use brackets
+    [self.window makeKeyAndVisible];
+    
 }
 
 

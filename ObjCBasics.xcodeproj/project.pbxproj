@@ -14,6 +14,7 @@
 		79F222B92640D6ED001009CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F222B82640D6ED001009CF /* Assets.xcassets */; };
 		79F222BC2640D6ED001009CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F222BA2640D6ED001009CF /* LaunchScreen.storyboard */; };
 		79F222BF2640D6ED001009CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F222BE2640D6ED001009CF /* main.m */; };
+		79F222C82640DCEC001009CF /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F222C72640DCEC001009CF /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		79F222BB2640D6ED001009CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F222BD2640D6ED001009CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79F222BE2640D6ED001009CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79F222C62640DCEC001009CF /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		79F222C72640DCEC001009CF /* Course.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				79F222BA2640D6ED001009CF /* LaunchScreen.storyboard */,
 				79F222BD2640D6ED001009CF /* Info.plist */,
 				79F222BE2640D6ED001009CF /* main.m */,
+				79F222C62640DCEC001009CF /* Course.h */,
+				79F222C72640DCEC001009CF /* Course.m */,
 			);
 			path = ObjCBasics;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 				79F222AE2640D6EA001009CF /* AppDelegate.m in Sources */,
 				79F222BF2640D6ED001009CF /* main.m in Sources */,
 				79F222B12640D6EA001009CF /* SceneDelegate.m in Sources */,
+				79F222C82640DCEC001009CF /* Course.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
